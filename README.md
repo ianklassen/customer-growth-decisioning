@@ -38,7 +38,7 @@ Open any row in the decision ledger and you get the full trace: raw signals, eac
 
 **The experiment tab.** Two numbers side by side. The naive read compares customers who were contacted to customers who were not, and is inflated almost entirely by targeting. The incremental read compares treated to holdout. The gap between them is the measurement error that keeps unproductive lifecycle programs funded.
 
-## Honest limitations
+## Limitations
 
 The data is synthetic and the scoring coefficients are hand-specified rather than learned, so none of the numbers are claims about any real business. It does not model interference between customers, long-run contact fatigue as an accumulating state, multi-touch sequencing, or pull-forward cannibalization of trips. The Model Card tab in the app covers this in more detail, along with three tradeoffs the design does not resolve.
 
