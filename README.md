@@ -6,7 +6,7 @@ A working prototype of a next-best-action decisioning engine for retail customer
 
 ---
 
-## The problem it was built around
+## The problem
 
 In most lifecycle systems, the best customers end up the most over-messaged. A shopper who comes in most weeks scores high on every model a growth team builds, so every team that wants to reach a customer reaches her. She converts, she was going to convert anyway, and the reporting counts it as a win.
 
@@ -32,7 +32,7 @@ Five layers, each one deliberately inspectable:
 
 Open any row in the decision ledger and you get the full trace: raw signals, each score broken into its contributing terms, every candidate ranked, every action a guardrail removed and which rule removed it, then the decision.
 
-## Two things worth clicking
+## Important
 
 **The price-integrity lock**, in the left rail. Turn it off and personalized discount depth enters the candidate set and starts winning, because it tests better than anything else in the action space. It always will. That is the argument for keeping price in the constraint layer rather than the objective function.
 
